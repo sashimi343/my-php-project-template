@@ -1,0 +1,13 @@
+{
+    "name": "sashim1343/my-php-project-template",
+    "authors": [
+        {
+            "name": "Kohei Kakimoto",
+            "email": "naige.1028@gmail.com"
+        }
+    ],
+    "require": {
+        "adodb/adodb-php": "5.20.9",
+        "phpunit/phpunit": "6.2.1"
+    }
+}

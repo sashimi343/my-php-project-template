@@ -1,0 +1,7 @@
+#!/bin/bash
+
+LISTEN_ADDR="localhost"
+LISTEN_PORT="8080"
+PROJECT_ROOT=$(cd $(dirname $0);cd ..;pwd)
+
+/usr/bin/php -S ${LISTEN_ADDR}:${LISTEN_PORT} -t ${PROJECT_ROOT}/public_html ${PROJECT_ROOT}/bin/router.php
